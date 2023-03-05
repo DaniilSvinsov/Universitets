@@ -1,2 +1,3 @@
-a = "The Ivankovo reservoir is informally known as the Moscow Sea. This reservoir is located in the Moscow and Tver regions (130 km north of Moscow), and this place is known as the main source of fresh water for the city of Moscow. The area of the Moscow Sea is 327 km2."
-print(a.count(" ") + 1)
+import json
+traffic = json.load(open('Universitets.json', encoding='utf-8-sig'))
+names = ['Название', ]

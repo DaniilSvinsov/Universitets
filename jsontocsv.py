@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open('facult1.json', encoding='cp1251') as inputfile:
+with open('Universitets.json', encoding='utf-8-sig') as inputfile:
     df = pd.read_json(inputfile)
 
-df.to_csv('facult1.csv', encoding='utf-8', index=False)
+df.to_csv('Universitets1.csv', encoding='utf-8', index=False)
